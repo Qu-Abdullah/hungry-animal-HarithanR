@@ -67,6 +67,9 @@ public class MyWorld extends World
         score++;
         scoreLabel.setValue(score);   
 
+        /**
+         * Increases the Speed of apples after every 5 apples eaten
+        */
         if(score % 5 == 0)
         {
             level++;
